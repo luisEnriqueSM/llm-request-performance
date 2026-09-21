@@ -7,6 +7,19 @@ workflow for regression and classification using an AI Engineering use case.
 
 Analyze simulated LLM request telemetry.
 
+## Dataset
+
+The dataset represents simulated LLM inference requests.
+
+| Feature | Type | Description |
+|---|---|---|
+| model | categorical | LLM model size |
+| input_tokens | numerical | Number of input tokens |
+| output_tokens | numerical | Number of generated tokens |
+| concurrent_requests | numerical | Number of simultaneous requests |
+| region | categorical | Deployment region |
+| latency_ms | numerical | Request latency in milliseconds |
+
 ### Regression
 
 Predict request latency.
