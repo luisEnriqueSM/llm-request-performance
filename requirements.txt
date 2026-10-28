@@ -3,3 +3,4 @@ scikit-learn
 matplotlib
 jupyterlab
 faiss-cpu
+sentence-transformers
